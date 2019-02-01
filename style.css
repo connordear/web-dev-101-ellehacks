@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background: black;
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.sound-button {
+    width: 200px;
+    height: 200px;
+    border: 2px solid purple ;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    transition: 0.25s;
+}
+
+.sound-button:hover {
+    background: lightgrey;
+}
+
+.sound-row {
+    display: flex;
+}
+
+.pushed-button {
+    background: yellow !important;
+}
