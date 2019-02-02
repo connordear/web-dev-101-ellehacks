@@ -18,14 +18,37 @@ body {
     transition: 0.25s;
 }
 
+.sound-button-2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellow ;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    transition: 0.25s;
+}
+
+.sound-button-2:hover {
+    background: lightgrey;
+}
+
 .sound-button:hover {
     background: lightgrey;
 }
+
 
 .sound-row {
     display: flex;
 }
 
 .pushed-button {
+    background: purple !important;
+}
+
+.pushed-button-2 {
     background: yellow !important;
+}
+
+.hide {
+    display: none;
 }
